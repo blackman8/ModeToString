@@ -5,7 +5,7 @@ import java.lang.reflect.Method;
 
 /**
  * 作为基类使用： 用来打印类信息(打印类名称，以及打印有get或is前缀声明的方法的字段值)
- * @author zhenhuakong
+ * @author blackman8
  *
  */
 public abstract class ModleToString {
