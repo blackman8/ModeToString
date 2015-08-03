@@ -20,7 +20,8 @@ public abstract class ModleToString {
 	 * 在子类中的toString中调用此方法
 	 * @return
 	 */
-	public String stringVal(){
+	@Override
+	public String toString() {
 		try {
 			return getFieldValue(this.getClass());
 		} catch (Exception e) {
